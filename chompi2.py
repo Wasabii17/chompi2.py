@@ -36,7 +36,7 @@ if st.button("Calcular"):
     Pf = campos.get("Pf", None)
     Vf = campos.get("Vf", None)
     Tf = campos.get("Tf", None)
-
+ st.images("ChatGPTImage22abr2025,12_31_58.png")
     resultado = None
     unidad = ""
 
@@ -59,7 +59,7 @@ if st.button("Calcular"):
         elif opcion == "Temperatura Final (T𝒇)":
             resultado = (Pf * Vf * Ti) / (Pi * Vi)
             unidad = "K"
-            st.images("ChatGPTImage22abr2025,12_31_58.png")
+           
 
         st.success(f"{opcion} = {resultado:.3f} {unidad}")
 
