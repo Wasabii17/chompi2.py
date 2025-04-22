@@ -39,7 +39,7 @@ if st.button("Calcular"):
     
     resultado = None
     unidad = ""
- st.images("ChatGPTImage22abr2025,12_31_58.png")
+ st.image("image1.png")
     try:
         if opcion == "Presión Inicial (Pᵢ)":
             resultado = (Pf * Vf * Ti) / (Tf * Vi)
