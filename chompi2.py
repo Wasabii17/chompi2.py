@@ -1,6 +1,7 @@
 # pages/4_Ecuacion_Combinada.py
 import streamlit as st
 st.set_page_config(page_title="Ecuación Combinada de Gases", page_icon="🔁")
+
 st.title("🔁 Ecuación Combinada de los Gases")
 st.markdown(r"""La ecuación combinada de los gases es:
 \[
