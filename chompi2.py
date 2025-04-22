@@ -1,6 +1,5 @@
 # pages/4_Ecuacion_Combinada.py
 import streamlit as st
-st.images("ChatGPTImage22abr2025,12_31_58.png")
 st.set_page_config(page_title="Ecuación Combinada de Gases", page_icon="🔁")
 st.title("🔁 Ecuación Combinada de los Gases")
 st.markdown(r"""La ecuación combinada de los gases es:
@@ -60,6 +59,7 @@ if st.button("Calcular"):
         elif opcion == "Temperatura Final (T𝒇)":
             resultado = (Pf * Vf * Ti) / (Pi * Vi)
             unidad = "K"
+            st.images("ChatGPTImage22abr2025,12_31_58.png")
 
         st.success(f"{opcion} = {resultado:.3f} {unidad}")
 
