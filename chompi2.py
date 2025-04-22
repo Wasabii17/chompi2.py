@@ -1,6 +1,6 @@
 # pages/4_Ecuacion_Combinada.py
 import streamlit as st
-stimage("ChatGPTImage22abr2025,12_31_58.png")
+st.images("ChatGPTImage22abr2025,12_31_58.png")
 st.set_page_config(page_title="Ecuación Combinada de Gases", page_icon="🔁")
 
 st.title("🔁 Ecuación Combinada de los Gases")
